@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:layout_width="406.0dip" android:layout_height="698.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintHorizontal_bias="1.0" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:layout_constraintVertical_bias="0.0">
+
+        <TextView
+            android:id="@+id/scoreTxt1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="105dp"
+            android:layout_marginEnd="125dp"
+            android:layout_marginBottom="138dp"
+            android:text="Score=8"
+            android:textSize="36.0sp" />
+
+        <ImageView
+            android:id="@+id/rBall9"
+            android:layout_width="111.0dip"
+            android:layout_height="118.0dip"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="4dp"
+            android:layout_marginTop="125dp"
+            android:layout_marginEnd="291dp"
+            android:layout_marginBottom="455dp"
+            android:alpha="0"
+            android:onClick="redBallClicked"
+            app:srcCompat="@drawable/red_ball" />
+
+        <ImageView
+            android:id="@+id/bBall9"
+            android:layout_width="111.0dip"
+            android:layout_height="118.0dip"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="6dp"
+            android:layout_marginTop="256dp"
+            android:layout_marginEnd="289dp"
+            android:layout_marginBottom="324dp"
+            android:alpha="0"
+            android:onClick="blueBallClicked"
+            app:srcCompat="@drawable/blue_ball" />
+
+        <TextView
+            android:id="@+id/levelTxt"
+            android:layout_width="372.0dip"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="20.0dip"
+            android:layout_marginBottom="645.0dip"
+            android:text="level 9"
+            android:textSize="36.0sp" />
+
+        <Button
+            android:id="@+id/again2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="130dp"
+            android:layout_marginBottom="50dp"
+            android:text="Try again"
+            android:textSize="18.0sp" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="7dp"
+            android:layout_marginEnd="26dp"
+            android:text="Don't Touch Red ball"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:id="@+id/gBall9"
+            android:layout_width="111.0dip"
+            android:layout_height="118.0dip"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="289dp"
+            android:layout_marginBottom="195dp"
+            android:alpha="0"
+            android:onClick="greenBallClicked"
+            app:srcCompat="@drawable/green_ball" />
+
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

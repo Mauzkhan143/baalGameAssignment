@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:layout_width="406.0dip" android:layout_height="698.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintHorizontal_bias="1.0" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:layout_constraintVertical_bias="0.0">
+
+        <TextView
+            android:id="@+id/scoreTxt1"
+            android:layout_width="175.0dip"
+            android:layout_height="53.0dip"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="96dp"
+            android:layout_marginEnd="134dp"
+            android:layout_marginBottom="184dp"
+            android:text="Score=0"
+            android:textSize="36.0sp" />
+
+        <ImageView
+            android:id="@+id/gball1"
+            android:layout_width="111.0dip"
+            android:layout_height="118.0dip"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="6dp"
+            android:layout_marginTop="257dp"
+            android:layout_marginEnd="289dp"
+            android:layout_marginBottom="323dp"
+            android:alpha="0"
+            android:onClick="ballClicked"
+            app:srcCompat="@drawable/green_ball" />
+
+        <TextView
+            android:id="@+id/levelTxt"
+            android:layout_width="372.0dip"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="20.0dip"
+            android:layout_marginBottom="645.0dip"
+            android:text="level 1"
+            android:textSize="36.0sp" />
+
+        <Button
+            android:id="@+id/again2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="131.0dip"
+            android:layout_marginBottom="102.0dip"
+
+            android:text="Try again"
+            android:textSize="18.0sp" />
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

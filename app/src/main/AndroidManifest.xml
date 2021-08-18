@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.baalgameassignment">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.BaalGameAssignment">
+        <activity
+            android:name=".Congrates"
+            android:exported="true" />
+        <activity
+            android:name=".levelTen"
+            android:exported="true" />
+        <activity
+            android:name=".levelNine"
+            android:exported="true" />
+        <activity
+            android:name=".levelEight"
+            android:exported="true" />
+        <activity
+            android:name=".levelSeven"
+            android:exported="true" />
+        <activity
+            android:name=".levelSix"
+            android:exported="true" />
+        <activity
+            android:name=".levelFive"
+            android:exported="true" />
+        <activity
+            android:name=".levelFour"
+            android:exported="true" />
+        <activity
+            android:name=".levelThree"
+            android:exported="true" />
+        <activity
+            android:name=".levelTwo"
+            android:exported="true" />
+        <activity
+            android:name=".levelOne"
+            android:exported="true" />
+        <activity
+            android:name=".Start"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/user/AndroidStudioProjects/baalGameAssignment/app/src/main/res/drawable/red_ball.xml" value="0.13541666666666666" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/baalGameAssignment/app/src/main/res/layout/activity_congrates.xml" value="0.13020833333333334" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/baalGameAssignment/app/src/main/res/layout/activity_level_eight.xml" value="0.1" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/baalGameAssignment/app/src/main/res/layout/activity_level_five.xml" value="0.1" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/baalGameAssignment/app/src/main/res/layout/activity_level_four.xml" value="0.1" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/baalGameAssignment/app/src/main/res/layout/activity_level_nine.xml" value="0.1" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/baalGameAssignment/app/src/main/res/layout/activity_level_one.xml" value="0.1" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/baalGameAssignment/app/src/main/res/layout/activity_level_seven.xml" value="0.2" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/baalGameAssignment/app/src/main/res/layout/activity_level_six.xml" value="0.1" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/baalGameAssignment/app/src/main/res/layout/activity_level_ten.xml" value="0.264" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/baalGameAssignment/app/src/main/res/layout/activity_level_three.xml" value="0.2" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/baalGameAssignment/app/src/main/res/layout/activity_level_two.xml" value="0.1" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/baalGameAssignment/app/src/main/res/layout/activity_main.xml" value="0.24010416666666667" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/baalGameAssignment/app/src/main/res/layout/activity_start.xml" value="0.25416666666666665" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

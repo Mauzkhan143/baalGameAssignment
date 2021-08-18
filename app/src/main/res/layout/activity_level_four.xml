@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:layout_width="406.0dip" android:layout_height="698.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintHorizontal_bias="1.0" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:layout_constraintVertical_bias="0.0">
+
+        <TextView
+            android:id="@+id/scoreTxt1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="123dp"
+            android:layout_marginEnd="107dp"
+            android:layout_marginBottom="114dp"
+            android:text="Score=3"
+            android:textSize="36.0sp" />
+
+        <ImageView
+            android:id="@+id/gball4"
+            android:layout_width="111.0dip"
+            android:layout_height="118.0dip"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="250dp"
+            android:layout_marginEnd="285dp"
+            android:layout_marginBottom="330dp"
+            android:alpha="0"
+            android:onClick="greenBallClicked"
+            app:srcCompat="@drawable/green_ball" />
+
+        <ImageView
+            android:id="@+id/bBall4"
+            android:layout_width="111.0dip"
+            android:layout_height="118.0dip"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="293dp"
+            android:layout_marginTop="97dp"
+            android:layout_marginEnd="2dp"
+            android:layout_marginBottom="483dp"
+            android:alpha="0"
+            android:onClick="blueBallClicked"
+            app:srcCompat="@drawable/blue_ball" />
+
+        <TextView
+            android:id="@+id/levelTxt"
+            android:layout_width="372.0dip"
+            android:layout_height="wrap_content"
+            android:alpha="0"
+
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="20.0dip"
+            android:layout_marginBottom="645.0dip"
+            android:text="level 4"
+            android:textSize="36.0sp" />
+
+        <Button
+            android:id="@+id/again2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="128dp"
+            android:layout_marginBottom="52dp"
+            android:onClick="tryAgain4"
+            android:text="Try again"
+            android:textSize="18.0sp" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="61dp"
+            android:layout_marginEnd="53dp"
+            android:text="Click all Balls"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:id="@+id/blBall4"
+            android:layout_width="111.0dip"
+            android:layout_height="118.0dip"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="8dp"
+            android:layout_marginBottom="182dp"
+            android:alpha="0"
+            android:onClick="blackBallClicked"
+            app:srcCompat="@drawable/black_ball" />
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
